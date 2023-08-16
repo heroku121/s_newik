@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+ul li {
+    list-style: none;
+    margin: 0
+}
+
+a {
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    color: #2e2e2e;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.content {
+    max-width: 1140px;
+    margin: auto
+}
+
+.content2 {
+    max-width: 1000px;
+    margin: auto
+}
+
+.flex {
+    display: flex
+}
+
+.justify {
+    justify-content: space-between
+}
+
+.align {
+    align-items: center
+}
+
+.justify-cen {
+    justify-content: center
+}
+
+.txt-cen {
+    text-align: center
+}
+
+.mrl {
+    margin: auto
+}
+
+img {
+    width: 100%;
+    height: auto
+}
+
+h1 {
+    color: #fa7000;
+    font-weight: 800;
+    margin-bottom: 20px
+}
+
+.spcl {
+    background-color: #efefef;
+}
+
+.lpuyt-hed {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #fff;
+}
+
+.high {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff48;
+}
+
+.lpuyt-introd {
+    background: #1276ad;
+    padding: 30px 0;
+    color: #fff
+}
+
+.lpuyt-introd h2 {
+    color: #fff !important
+}
+
+.main-pd {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1276ad !important
+}
+
+.hiuy {
+    background: #d2edf1;
+    padding: 26px;
+    border-radius: 10px;
+}
+
+.lpuyt-bens {
+    background: #1276ad;
+    color: #fff;
+}
+
+.lpuyt-bens h1 {
+    color: #fff;
+}
+
+.lpuyt-int-img {
+    flex: 40%;
+    padding: 25px;
+    border-radius: 30px
+}
+
+.lpuyt-info {
+    flex: 50%
+}
+
+.faqs h3 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/*newsecadd*/
+
+.lpuyt-ntdimg {
+    flex: 30%
+}
+
+.lpuyt-ntdctn {
+    flex: 70%
+}
+
+.lpuyt-dd1 {
+    flex: 55%;
+}
+
+.lpuyt-dd2 {
+    flex: 45%;
+}
+
+.stp {
+    background-color: #00b0f0;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.lis-ch2 li {
+    background: url(../images/green-tick.png) no-repeat left 0px top 3px;
+    padding: 0px 0px 0px 35px;
+    list-style: none;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background-size: 30px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lpuyt-dd {
+    background-color: #e8f7fd;
+}
+
+.gap {
+    gap: 20px
+}
+
+.lpuyt-info h2 {
+    font-size: 30px;
+    color: #000
+}
+
+.lpuyt-info h3 {
+    font-size: 35px;
+    color: #000
+}
+
+.spcl-ct {
+    flex: 33.33%;
+    background-color: #c7dae1;
+    padding: 10px;
+}
+
+.lpuyt-ing-infsss {
+    margin-bottom: 30px;
+}
+
+.lpuyt-ing-boxes {
+    background-color: #1276ad;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.lpuyt-ing-boxes img {
+    max-width: 250px;
+    border-radius: 73% 27% 42% 58% / 61% 54% 46% 39%;
+    border: 3px solid #fff;
+}
+
+.lpuyt-ohtit img {
+    border-radius: 73% 27% 42% 58% / 61% 54% 46% 39%;
+    border: 3px solid #fff;
+}
+
+.lpuyt-ohtit {
+    flex: 16.6%;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.lis-ch li {
+    background: url(../images/checkmark2.png) no-repeat left 0px top 3px;
+    padding: 0px 0px 0px 35px;
+    list-style: none;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background-size: 30px 30px;
+    font-size: 20px
+}
+
+.lpuyt-bens-rt-img {
+    flex: 50%
+}
+
+.lpuyt-why-img {
+    flex: 40%
+}
+
+.lpuyt-why-cn {
+    flex: 60%;
+}
+
+.lpuyt-why-img img {
+    border-radius: 10px;
+}
+
+.lpuyt-gurs {
+    background: #1276ad;
+    padding: 40px 0
+}
+
+.pd {
+    padding: 30px 0
+}
+
+.lpuyt-cst-box {
+    width: 33.3%;
+    box-shadow: #1276ad 10px 10px;
+    border: 2px solid #1276ad;
+}
+
+.footer {
+    background: #1276ad;
+    color: #fff
+}
+
+.foot-link a {
+    color: #fff;
+    font-size: 20px
+}
+
+@media screen and (max-width: 767px) {
+    .lpuyt-why-img img {
+        margin-left: 0
+    }
+    .faqs {
+        padding: 0 20px
+    }
+    .ct-cen {
+        text-align: center
+    }
+    .lpuyt-cst-box {
+        width: 100%
+    }
+    .flex-dir {
+        flex-direction: column
+    }
+    .pd {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .lpuyt-introd-con img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .lpuyt-ing-boxes {
+        width: 33.3%
+    }
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
